@@ -3,8 +3,10 @@
 var invitedPeople = ["pippo", "pluto", "paperino", "ciccio"];
 var name = prompt("Enter your name");
 var found = false;
-for (var i = 0; i < invitedPeople.length && found === false; ++i)
+var i = 0;
+while (i < invitedPeople.length && found === false)
 {
     if (name === invitedPeople[i]) found = true;
+    ++i;
 }
 console.log(found ? "come in!" : "YOU SHALL NOT PASS!");
