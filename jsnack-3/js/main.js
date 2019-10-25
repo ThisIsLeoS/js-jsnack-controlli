@@ -13,4 +13,4 @@ while (j < 5)
     sum += num;
     j++;
 } */
-console.log(sum);
+document.querySelector(".sum-msg").textContent = "The sum of the entered numbers is: " + sum;
