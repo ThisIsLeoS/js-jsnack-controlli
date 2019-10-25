@@ -7,4 +7,4 @@ for (var i = 0; i < 6; ++i)
     num = parseFloat(prompt("Enter a number"));
     if (num % 2 !== 0) oddNums[i] = num;
 }
-console.log(oddNums);
+document.querySelector(".msg").textContent = oddNums;
