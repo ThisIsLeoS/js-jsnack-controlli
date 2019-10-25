@@ -5,6 +5,8 @@ var num,
 for (var i = 0; i < 6; ++i)
 {
     num = parseFloat(prompt("Enter a number"));
-    if (num % 2 !== 0) oddNums[i] = num;
+    if (num % 2 !== 0) oddNums.push(num);
 }
-document.querySelector(".msg").textContent = oddNums;
+// the join method is used to add a space between each item of the collection
+document.querySelector(".msg").textContent = 
+    "The odd numbers you've inserted are: " + oddNums.join(", ");
