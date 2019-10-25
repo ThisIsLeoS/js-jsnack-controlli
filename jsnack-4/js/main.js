@@ -9,4 +9,4 @@ while (i < invitedPeople.length && found === false)
     if (name === invitedPeople[i]) found = true;
     ++i;
 }
-console.log(found ? "come in!" : "YOU SHALL NOT PASS!");
+document.querySelector(".msg").textContent = found ? "come in!" : "YOU SHALL NOT PASS!";
