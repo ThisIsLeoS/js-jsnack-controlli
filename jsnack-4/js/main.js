@@ -7,4 +7,4 @@ for (var i = 0; i < invitedPeople.length && found === false; ++i)
 {
     if (name === invitedPeople[i]) found = true;
 }
-console.log(found? "come in!" : "YOU SHALL NOT PASS!");
+console.log(found ? "come in!" : "YOU SHALL NOT PASS!");
